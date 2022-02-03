@@ -1,5 +1,5 @@
 body{
-	background-image: linear-gradient(darkolivegreen, olivedrab);
+	background-color: hotpink;
 	font-size: 18px;
 	font-family: 'Quicksand', sans-serif;
 	color: white;
@@ -15,8 +15,8 @@ h5{
 	font-style: bold;
 	font-size: 2rem;
 	text-transform: uppercase;
-	line-height: 10px;
-	color:  lightseagreen;
+	line-height: 28px;
+	color:  navy;
 }
 a{
 	color: white;
@@ -24,11 +24,15 @@ a{
 /* COMMENT */
 #ingredients{
 	background-color: goldenrodyellow;
-	color: darkorange;
+	color: navy;
 	font-style: italic;
+}
+#optional{
+	font-style: italic;
+	text-decoration: underline;
 }
 #directions{
 	color: white;
-	background-color: lightseagreen;
+	background-color: navy;
 	width: 1000px;
 }
