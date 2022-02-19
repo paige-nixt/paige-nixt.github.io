@@ -1,0 +1,51 @@
+body{
+	background-color: floralwhite;
+}
+/*CSS GRID*/
+header{
+	grid-area: header;
+	height: 125px;
+	padding: 20px;
+	background-color: lightpink;
+}
+img{
+	height: 400px;
+}
+#image{
+	grid-area: image;
+	height: 350px;
+	padding: 20px;
+	background-color: lightgray;
+}
+#ingredients{
+	grid-area: ingredients;
+	height: 350px;
+	padding: 20px;
+	background-color: slategray;
+}
+#directions{
+	grid-area:directions;
+	height: 400px;
+	padding: 20px;
+	background-color: #ebf1eb;
+	
+}
+footer{
+	grid-area:footer;
+	height: 200px;
+	background-color:deeppink;
+}
+
+
+.grid-container{
+	display: grid;
+	grid-template-areas:
+	'header header header'
+	'ingredients ingredients image'
+	'directions directions directions'
+	'footer footer footer';
+	width: 90%;
+	margin: auto;
+	background-color: #ebf1eb;
+	
+}
