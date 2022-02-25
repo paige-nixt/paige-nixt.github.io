@@ -31,7 +31,7 @@ a{
 /*CSS GRID*/
 header{
 	grid-area: header;
-	height: 560px;
+	height: 460px;
 	max-width: 1500px;
 	padding: 70px;
 	background-color: whitesmoke;
