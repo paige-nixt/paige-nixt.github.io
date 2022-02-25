@@ -1,0 +1,99 @@
+body{
+	background-color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-size:20px ;line-height: 26px;
+}
+
+/*LAYOUT*/
+h1{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 90px;
+	line-height: 90px;
+	color: slateblue;
+}
+h2{
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	font-size: 21px;
+}
+
+h5{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 40px;
+	line-height: 0px;
+}
+a{
+	color: orangered;
+}
+
+
+
+/*CSS GRID*/
+header{
+	grid-area: header;
+	height: 560px;
+	max-width: 1500px;
+	padding: 70px;
+	background-color: whitesmoke;
+}
+img{
+width: 400px
+}
+#image{
+	grid-area: image;
+	background-color: white;
+}
+#yield{
+	grid-area: yield;
+	background-color: white;
+	height: 200px;
+	margin: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	border-top: solid black 8px;
+	border-bottom: solid black 8px;
+}
+#time{
+	grid-area: time;
+	background-color: white;
+	height: 200px;
+	margin:  5px;
+	text-align: center;
+	text-transform: uppercase;
+	border-top: solid black 8px;
+	border-bottom: solid black 8px;
+}
+#ingredients{
+	grid-area: ingredients;
+	min-height: 800px;
+	max-height: 1300px;
+	padding: 30px;
+	background-color: whitesmoke;
+}
+#directions{
+	grid-area:directions;
+	min-height: 800px;
+	max-height: 1300px;
+	padding: 30px;
+	background-color: whitesmoke;
+	
+}
+footer{
+	grid-area:footer;
+	height: 35px;
+	background-color:black;
+	text-align: center;
+	color: white;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-areas:
+	'image header'
+	'yield time'
+	'ingredients directions'
+	'footer footer';
+	width: 80%;
+	margin: auto;
+	
+}
