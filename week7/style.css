@@ -17,10 +17,12 @@ h2{
 	font-size: 21px;
 }
 
-h5{
-	font-family: 'Bebas Neue', sans-serif;
-	font-size: 40px;
-	line-height: 0px;
+h5 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    line-height: 0px;
+    margin-block-start: 75px;
+    margin-block-end: 32px;
 }
 a{
 	color: orangered;
