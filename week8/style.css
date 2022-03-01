@@ -9,7 +9,7 @@ a{color:orangered}
 a:hover{color:slateblue;}
 
 /*CSS GRID*/
-header{grid-area: header; height: 460px; max-width: 1500px; padding: 70px; background-color: whitesmoke; border-radius: 15px;margin: 5px}
+header{grid-area: header; height: 460px; width: 1500px; padding: 70px; background-color: whitesmoke; border-radius: 15px;margin: 5px}
 img{width: 400px; border-radius: 15px;margin: 5px}
 #image{grid-area: image;background-color: white;}
 #yield{grid-area: yield;background-color: white;height: 200px; margin: 5px; text-align: center;text-transform: uppercase; border-top: solid black 8px; border-bottom: solid black 8px}
