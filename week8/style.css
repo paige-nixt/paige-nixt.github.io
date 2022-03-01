@@ -21,7 +21,7 @@ footer{grid-area:footer; height: 35px; width:100%;background-color:black; text-a
 .grid-container{display: grid; grid-template-areas:'image header' 'yield time' 'ingredients directions' 'footer footer'; width: 80%; margin: auto; background-color: white;}
 
 /*Media Query*/
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 500px){
 	.grid-container{
 		grid-template-areas:'image''header' 'yield' 'time' 'ingredients ' 'directions ' 'footer'}
 	h2{font-size: 28px}
