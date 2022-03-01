@@ -1,0 +1,37 @@
+body{background-color: white; font-family: 'Quicksand', sans-serif; font-size:20px ;line-height: 26px}
+
+/*LAYOUT*/
+h1{font-family: 'Bebas Neue', sans-serif; font-size: 90px; line-height: 90px; color: slateblue}
+h2{font-family: 'Quicksand', sans-serif;text-transform: uppercase;font-size: 21px}
+
+h5 {font-family: 'Bebas Neue', sans-serif; font-size: 40px;line-height: 0px;margin-block-start: 75px; margin-block-end: 32px}
+a{color:orangered}
+a:hover{color:slateblue;}
+
+/*CSS GRID*/
+header{grid-area: header; height: 460px; max-width: 1500px; padding: 70px; background-color: whitesmoke; border-radius: 15px;margin: 5px}
+img{width: 400px; border-radius: 15px;margin: 5px}
+#image{grid-area: image;background-color: white;}
+#yield{grid-area: yield;background-color: white;height: 200px; margin: 5px; text-align: center;text-transform: uppercase; border-top: solid black 8px; border-bottom: solid black 8px}
+#time{grid-area: time; background-color: white;height: 200px; margin:  5px; text-align: center; text-transform: uppercase; border-top: solid black 8px; border-bottom: solid black 8px;}
+#ingredients{grid-area: ingredients; min-height: 575px; max-height: 1300px; padding: 30px; background-color: whitesmoke; border-radius: 15px 0px 0px 15px}
+#directions{grid-area:directions; min-height: 800px; max-height: 1500px; padding: 30px; background-color: whitesmoke;border-radius: 0px 15px 15px 0px}
+footer{grid-area:footer; height: 35px; width:100%;background-color:black; text-align: center;color: white}
+
+.grid-container{display: grid; grid-template-areas:'image header' 'yield time' 'ingredients directions' 'footer footer'; width: 80%; margin: auto; background-color: white;}
+
+/*Media Query*/
+@media only screen and (max-width: 425px){
+	.grid-container{
+		grid-template-areas:'image''header' 'yield' 'time' 'ingredients ' 'directions ' 'footer'}
+	h2{font-size: 28px}
+	body{font-size: 24px;line-height: 32px;}
+	header{width: 70%;text-align: center;}
+	img{width: 100%}
+	#image{text-align: center;}
+	#yield{width: 100%;}
+	#time{width: 100%;border-top: solid white 8px;}
+	#directions{border-radius: 15px;}
+	#ingredients{border-radius: 15px;}
+	}
+}
